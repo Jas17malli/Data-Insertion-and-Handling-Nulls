@@ -1,16 +1,24 @@
 # Data-Insertion-and-Handling-Nulls
  Objective:    Practice inserting, updating, and deleting data.
+ 
  Deliverables: SQL file with INSERT, UPDATE, DELETE statement.
+ 
  Hints/Mini Guide:
+ 
  1.Use INSERT INTO for adding rows
+ 
  2.Handle missing values using NULL or default
+ 
  3.Use UPDATE and DELETE with WHERE condition
 
---Created database with students name
+--Created database with students name.
+
 use Students;
 
 --Creating a students table. 
+
 --This table contain information of students like Studentid,name,age,email
+
 Create table Students(
 Studentid int primary key,
 Name varchar(100),
@@ -18,7 +26,7 @@ Age int,
 Email Varchar(100)
 );
 
---Checking the table
+--Checking the table.
 Select * from Students;
 
 --INSERT with Full Data
